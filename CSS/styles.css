@@ -1,0 +1,31 @@
+body {
+    margin: 25px;
+    padding: 10px;
+    background-image: linear-gradient(#e6e6ff, #ffeffc);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header > ul {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #7eb4fc;
+}
+figure {
+    text-align: center;
+}
+#coverPhoto {
+    object-fit: fill;
+    height: 75%;
+    width: 75%;
+}
+h1 {
+    size: large;
+    font-style: italic;
+    text-align: center;
+}
+h2 {
+    size: large;
+    text-align: center;
+}
