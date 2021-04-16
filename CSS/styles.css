@@ -68,3 +68,12 @@ header a:visited {
     padding: 10px;
     text-align: left;
 }
+#photoSlideshow > figure > img {
+    display: none;
+    margin: 0px auto;
+}
+section#photoSlideshow > figure.visible > img {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
