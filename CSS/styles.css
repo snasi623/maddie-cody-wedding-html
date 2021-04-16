@@ -1,22 +1,22 @@
 body {
-    background-image: linear-gradient(#e6e6ff, #ffeffc);
+    background-image: linear-gradient(#A4969B, #655560);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
+    text-align: center;
+    color: #FCF7FF;
 }
 header {
-    background-color: white;
+    background-color: #F3D8C7;
+    color: black;
 }
 header > nav > ul {
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #7eb4fc;
+    background-color: #878C8F;
     height: 60px;
     list-style-type: none;
-}
-header > nav > ul > li {
-    background-color: #b9d8ff;
 }
 #coverPhotoFigure {
     text-align: center;
@@ -58,5 +58,4 @@ header a:visited {
 .weddingPartyProfile {
     height: 33%;
     width: 33%;
-    border: 2px white;
 }
