@@ -3,6 +3,7 @@
 <head>
     <title>RSVP</title>
     <link rel="stylesheet" href="./CSS/styles.css">
+    <script type="text/javascript" src="./javascript/script.js"></script>
 </head>
 <body>
     <header>
@@ -24,28 +25,31 @@
     <div id="contents">
         <figure id="coverPhotoFigure"><img src="./images/IMG_4324.jpeg" id="coverPhoto"></figure>
     </div>
-    <h3>RSVP</h3>
-    <p>Please let us know by <time datetime="2021-09-18"></time>. We look forward to celebrating with you!</p>
-    <div class="column">
+    <section>
+        <h3>RSVP</h3>
+        <p>Please let us know by <time datetime="2021-09-18">insertDateHere</time>. We look forward to celebrating with you!</p>
         <p>Instructions on how to RSVP</p>
-    </div>
-    <form id="rsvp" class="column">
-        <label for="name">Name: </label>
-        <input type="text" name="name" placeholder="Enter Your Name Here" required="required">
-        <br>
-        <label for="emailAddress">Email Address: </label>
-        <input type="text" name="emailAddress" placeholder="Enter Your Email Here" required="required">
-        <br>
-        <label for="guest">Are you bringing a guest? </label>
-        <select name="guest">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-        </select>
-        <br>
-        <label for="guestName">Guest Name: </label>
-        <input type="text" name="guest" placeholder="Enter Your Guest Name Here">
-        <br>
-        <button type="submit">Submit</button>
-    </form>
+    </section>
+    <br>
+    <section>
+        <form id="rsvp">
+            <label for="name">Name: </label>
+            <input type="text" name="name" placeholder="Enter Your Name Here" required="required">
+            <br>
+            <label for="emailAddress">Email Address: </label>
+            <input type="text" name="emailAddress" placeholder="Enter Your Email Here" required="required">
+            <br>
+            <label for="guest">Are you bringing a guest? </label>
+            <select name="guest">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <br>
+            <label for="guestName">Guest Name: </label>
+            <input type="text" name="guest" placeholder="Enter Your Guest Name Here">
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
 </body>
 </html>
