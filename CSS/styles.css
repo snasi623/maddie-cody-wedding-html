@@ -6,8 +6,8 @@ body {
     color: #FCF7FF;
 }
 header {
-    background-color: #F3D8C7;
-    color: black;
+    background-color: #C4CAD0;
+    color: #4b4047;
 }
 header > nav > ul {
     padding: 10px;
@@ -17,6 +17,7 @@ header > nav > ul {
     background-color: #878C8F;
     height: 60px;
     list-style-type: none;
+    color: white;
 }
 #coverPhotoFigure {
     text-align: center;
@@ -58,4 +59,12 @@ header a:visited {
 .weddingPartyProfile {
     height: 33%;
     width: 33%;
+}
+.recommendations {
+    height: 33%;
+    width: 33%;
+}
+#rsvp > {
+    padding: 10px;
+    text-align: left;
 }
