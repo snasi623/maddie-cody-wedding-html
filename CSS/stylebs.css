@@ -1,0 +1,22 @@
+#coverPhotoFigure {
+    text-align: center;
+}
+#coverPhoto {
+    object-fit: fill;
+    height: 75%;
+    width: 75%;
+}
+#logo {
+    height: 20px;
+    width: 32px;
+}
+body {
+    background-image: linear-gradient(#A4969B, #655560);
+    margin: 0;
+    text-align: center;
+    color: #FCF7FF;
+}
+.container {
+    padding: 20px;
+    text-align: center;
+}

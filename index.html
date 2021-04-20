@@ -2,30 +2,45 @@
 <html lang="en">
 <head>
     <title>Maddie+Cody</title>
-    <link rel="stylesheet" href="./CSS/styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/stylebs.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./javascript/script.js"></script>
 </head>
 <body>
   <header>
-    <h1>Our Wedding</h1>
-    <h2>Maddie Vansooest & Cody</h2>
-    <nav>
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./schedule.html">Schedule</a></li>
-        <li><a href="./wedding_party.html">Wedding Party</a></li>
-        <li><a href="./travel.html">Travel</a></li>
-        <li><a href="./activities.html">Things to Do</a></li>
-        <li><a href="./registry.html">Registry</a></li>
-        <li><a href="./photos.html">Photos</a></li>
-        <li><a href="./rsvp.html">RSVP</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+      <a class="navbar-brand" href="#"><img id="logo" src="./images/rings-for-wedding-images-png-5.png" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./schedule.html">Schedule</a></li>
+          <li class="nav-item"><a class="nav-link" href="./wedding_party.html">Wedding Party</a></li>
+          <li class="nav-item"><a class="nav-link" href="./travel.html">Travel</a></li>
+          <li class="nav-item"><a class="nav-link" href="./activities.html">Things to Do</a></li>
+          <li class="nav-item"><a class="nav-link" href="./registry.html">Registry</a></li>
+          <li class="nav-item"><a class="nav-link" href="./photos.html">Photos</a></li>
+          <li class="nav-item"><a class="nav-link" href="./rsvp.html">RSVP</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
-  <div id="contents">
-    <figure id="coverPhotoFigure"><img src="./images/IMG_4324.jpeg" id="coverPhoto"></figure>
-    <h3>Our Story</h3>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde dolore blanditiis ratione distinctio autem voluptatibus similique doloremque recusandae. Itaque provident accusamus repellendus dolor iste.</p>
-  </div>
+  <section class="container">
+    <div class="row">
+      <div class="col-lg">
+        <h1>Our Wedding</h1>
+        <h2>Maddie Vansooest & Cody</h2>
+        <h3>Our Story</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde dolore blanditiis ratione distinctio autem voluptatibus similique doloremque recusandae. Itaque provident accusamus repellendus dolor iste.</p>
+      </div>
+      <div class="col-sm">
+        <figure id="coverPhotoFigure"><img src="./images/IMG_4324.jpeg" id="coverPhoto"></figure>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
