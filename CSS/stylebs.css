@@ -11,14 +11,10 @@
     width: 32px;
 }
 body {
-    background-image: linear-gradient(#A4969B, #655560);
+    background-image: linear-gradient(#ededed, #d5d5dd);
     margin: 0;
     text-align: center;
-    color: #FCF7FF;
-}
-.container {
-    padding: 20px;
-    text-align: center;
+    color: #303030;
 }
 h1 {
     text-align: center;
@@ -37,9 +33,17 @@ h2 {
     width: 33%;
 }
 form#rsvp {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     margin: 25px;
     padding: 25px;
+}
+div.row {
+    padding: 20px;
+}
+@media screen {
+    #schedule div.col-sm-8 {
+        border-left: 1px solid rgb(34, 34, 34);
+    }
+    #travel div.col-sm-8 {
+        border-left: 1px solid rgb(34, 34, 34);
+    }
 }

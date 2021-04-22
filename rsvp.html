@@ -29,36 +29,56 @@
             </div>
           </nav>
     </header>
-    <div id="contents">
+    <div>
         <h1>RSVP</h1>
         <h2>Maddie Vansooest & Cody</h2>
         <figure id="coverPhotoFigure"><img src="./images/IMG_4324.jpeg" id="coverPhoto"></figure>
     </div>
     <section>
-        <h3>Please let us know by <time datetime="2021-09-18">insertDateHere</time>. </h3>
+        <h3>Please let us know by <time datetime="2021-09-18">insertDateHere</time>.</h3>
+        <br>
         <h3>We look forward to celebrating with you!</h3>
         <p>Instructions on how to RSVP</p>
     </section>
-    <br>
-    <section>
-        <form id="rsvp">
-            <label for="name">Name: </label>
-            <input type="text" name="name" placeholder="Enter Your Name Here" required="required">
-            <br>
-            <label for="emailAddress">Email Address: </label>
-            <input type="text" name="emailAddress" placeholder="Enter Your Email Here" required="required">
-            <br>
-            <label for="guest">Are you bringing a guest? </label>
-            <select name="guest">
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
-            </select>
-            <br>
-            <label for="guestName">Guest Name: </label>
-            <input type="text" name="guest" placeholder="Enter Your Guest Name Here">
-            <br>
-            <button type="submit">Submit</button>
+    <div class="container">
+        <form id="rsvp" action="https://formspree.io/f/xleadajq" method="POST">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="name">Name: </label>
+                        <input class="form-control" type="text" name="name" placeholder="Enter Your Name Here" required="required">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="emailAddress">Email Address: </label>
+                        <input class="form-control" type="text" name="emailAddress" placeholder="Enter Your Email Here" required="required">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="guest">Are you bringing a guest? </label>
+                        <select class="form-control" name="guest">
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="guestName">Guest Name: </label>
+                        <input class="form-control" type="text" name="guest" placeholder="Enter Your Guest Name Here">
+                    </div>
+                </div>
+            </div>
+            <div class="col align-items-center">
+                <div class="form-group">
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                </div>
+            </div>
         </form>
-    </section>
+    </div>
 </body>
 </html>
