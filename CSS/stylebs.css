@@ -18,19 +18,19 @@ body {
 }
 h1 {
     text-align: center;
-    padding: 20px;
+    padding-top: 20px;
 }
 h2 {
     text-align: center;
-    padding: 20px;
+    padding-bottom: 20px;
 }
 .weddingPartyProfile {
     height: 33%;
     width: 33%;
 }
 .recommendations {
-    height: 33%;
-    width: 33%;
+    height: 50%;
+    width: 50%; 
 }
 form#rsvp {
     margin: 25px;
@@ -43,5 +43,19 @@ div.row {
     .col-with-divider div.col-sm-8 {
         border-left: 1px solid rgb(34, 34, 34);
     }
-
+}
+.col-sm-8 p, h4 {
+    margin: 20px;
+}
+.rounded-circle {
+    border: 1px solid #000000;
+}
+#activities h3 {
+    padding-top: 20px;
+}
+#weddingParty h3 {
+    padding-top: 20px;
+}
+.container {
+    padding-bottom: 30px;
 }
